@@ -1,0 +1,15 @@
+raw/
+adapters/
+.venv/
+__pycache__/
+*.tmp
+.DS_Store
+# parse intermediates are reproducible from raw/ via parse.py; keep only the curated samples
+extracted/*.txt
+extracted/*.json
+# agent runtime state (session memories, scheduled tasks) — never publish
+.claude/
+# local HF model cache (fallback when the shared /Volumes cache is TCC-blocked)
+.hf-cache/
+# locally-converted model copies (rebuildable via mlx_lm convert; see decisions 2026-08-22)
+.hf-models/

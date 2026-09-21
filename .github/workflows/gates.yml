@@ -1,0 +1,26 @@
+# Run every cheap gate on push/PR: projection freshness, corpus validation,
+# lint selftest. All three are stdlib+repo-local by design. fetch.py --verify
+# additionally covers raw/ provenance but raw/ is gitignored, so the full
+# suite incl. raw verification stays a local `sh scripts/check.sh` run
+# (AGENTS.md "Gates").
+name: gates
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+      - name: Projection freshness
+        run: python3 scripts/manifest.py --check
+      - name: Corpus validation (0 violations)
+        run: python3 scripts/validate_corpus.py
+      - name: Lint selftest
+        run: |
+          python3 -c "import sys; sys.path.insert(0, 'eval'); sys.path.insert(0, 'scripts'); import lints; lints.selftest(); print('selftest PASS')"
