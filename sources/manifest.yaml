@@ -1,0 +1,2714 @@
+# sources/manifest.yaml - provenance ledger (projected from manifest.json).
+# Sample -> source_id -> sha256_source; no orphan samples.
+# classes: key_judgements | full_assessment | confidence_statements |
+#   negative_us | negative_press | negative_llm | spec | contrast_misc | ca_ic | au_ic
+
+sources:
+
+  - id: isc-russia-2020
+    file: isc-russia-2020.pdf
+    url: "https://s3.documentcloud.org/documents/6999013/20200721-HC632-CCS001-CCS1019402408-001-ISC.pdf"
+    publisher: ISC
+    title: Russia (HC 632)
+    published: 2020-07-21
+    class: key_judgements
+    licence: OPL
+    extract: pdf
+    status: fetched
+    sha256: 97413f75ed05e6f45429fcad1de06e8e37220801fbc758030f2636475f84b5a1
+    note: Key judgements in a dedicated Key Judgements section; genuine committee-over-IC register.
+
+  - id: isc-7july-2009
+    file: isc-7july-2009.pdf
+    url: "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/224690/isc_terrorist_attacks_7july_report.pdf"
+    publisher: ISC
+    title: Report into the London Terrorist Attacks on 7 July 2005
+    published: 2009-05-11
+    class: key_judgements
+    licence: OPL
+    extract: pdf
+    status: fetched
+    sha256: bec63923ebb6c8f802491b7f45938822567ac469e2a2fdd8bda9a2026ebb6bf9
+
+  - id: isc-detainee-rendition-2018
+    file: isc-detainee-rendition-2018.pdf
+    url: "https://www.therenditionproject.org.uk/documents/RDI/180628-ISC-Detainee-Mistreatment-Rendition-2001-2010.pdf"
+    publisher: ISC
+    title: Detainee Mistreatment and Rendition, 2001-2010 (HC 1113)
+    published: 2018-06-28
+    class: key_judgements
+    licence: OPL
+    extract: pdf
+    status: fetched
+    sha256: 84a2bcfeb2f445e2c96ccdc5d823e8bf52a1be8d7d54ac6be47155ef2ebf9074
+
+  - id: chilcot-executive-summary
+    file: chilcot-executive-summary.pdf
+    url: "https://assets.publishing.service.gov.uk/media/5a80f42ced915d74e6231626/The_Report_of_the_Iraq_Inquiry_-_Executive_Summary.pdf"
+    publisher: "The Report of the Iraq Inquiry (Chair: Sir John Chilcot)"
+    title: The Report of the Iraq Inquiry — Executive Summary
+    published: 2016-07-06
+    class: full_assessment
+    licence: OPL
+    extract: pdf
+    status: fetched
+    sha256: 3788bff8f9a591fcb640975d1e1d19e56ba4b43deebe7ac46eb7c6358c180109
+    note: "Reproduces JIC assessments verbatim + gold-standard commentary. Inquiry copyright: personal/educational."
+
+  - id: butler-review-2004
+    file: butler-review-2004.pdf
+    url: "https://www.globalsecurity.org/intell/library/reports/2004/butler-report.pdf"
+    publisher: Review of Intelligence on WMD
+    title: Review of Intelligence on Weapons of Mass Destruction
+    published: 2004-07-14
+    class: full_assessment
+    licence: OPL
+    extract: pdf
+    status: fetched
+    sha256: 1a1008379ed9beb75bc5e10c6a8f86d570ffff1cc2a964f12672afd53571e685
+    note: Critiques JIC certainty-language drift (assessment-creep) — the negative direction too.
+
+  - id: sept-dossier-2002
+    file: sept-dossier-2002.pdf
+    url: "http://news.bbc.co.uk/nol/shared/spl/hi/middle_east/02/uk_dossier_on_iraq/pdf/iraqdossier.pdf"
+    publisher: HM Government
+    title: "Iraq's Weapons of Mass Destruction \u2014 The Assessment of the British Government"
+    published: 2002-09-24
+    class: full_assessment
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: b2740e3157995f12358dd87c776fa88e13a3a6389419fb8c8dddad15908f65c9
+    note: September Dossier; cautionary-calibration set; Butler critiqued its foreword.
+
+  - id: nca-nsa-2020
+    file: nca-nsa-2020.pdf
+    url: "https://www.nationalcrimeagency.gov.uk/images/campaign/NSA/PDFs/nsa-2020.pdf"
+    publisher: National Crime Agency
+    title: National Strategic Assessment of Serious and Organised Crime 2020
+    published: 2020
+    class: key_judgements
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: 216a78721d5e381250cbdfed77daca092d378418247324cb1ad6e1e5d4193d79
+    note: Law-enforcement-intelligence register; KJ sections; fraud/ML vocabulary.
+
+  - id: chilcot-volume-IV
+    file: chilcot-volume-IV.pdf
+    url: "https://assets.publishing.service.gov.uk/media/5a80b723e5274a2e8ab51c0c/The_Report_of_the_Iraq_Inquiry_-_Volume_IV.pdf"
+    publisher: "The Report of the Iraq Inquiry (Chair: Sir John Chilcot)"
+    title: The Report of the Iraq Inquiry — Volume IV (8 July 2005)
+    published: 2016-07-06
+    class: full_assessment
+    licence: OPL
+    extract: pdf
+    status: fetched
+    sha256: 685df24d2487bbf62e9aa689d51572042b6e3abdff2603c3bb2c2315be4c0da2
+    note: Reproduces JIC assessments verbatim for the build-up period; expands positive register volume.
+
+  - id: odni-federal-election-2021
+    file: odni-federal-election-2021.pdf
+    url: "https://coas.howard.edu/sites/coas.howard.edu/files/2021-03/Foreign%20Threats%20to%20the%202020%20US%20Federal%20Elections.pdf"
+    publisher: ODNI
+    title: Foreign Threats to the 2020 US Federal Elections
+    published: 2021-03-15
+    class: negative_us
+    licence: us-public-domain
+    extract: pdf
+    status: fetched
+    sha256: 466e7b2d865ccf117772b94d76e5db90198fb7c2d60d79515f2adfe936397ed8
+    note: "US-convention contrast: high-confidence cadence, same claims as UK assessments. Fetched from Howard.edu mirror.; licence set 2026-08-21 by rule; verify before publication"
+
+  - id: press-bbc-7july-keyfindings
+    file: press-bbc-7july-keyfindings.html
+    url: "https://www.bbc.co.uk/2/hi/uk_news/4760919.stm"
+    publisher: BBC News (press pair)
+    title: "Key findings: 7 July report (press treatment)"
+    published: 2009-05-11
+    class: negative_press
+    licence: all-rights-reserved
+    extract: html
+    status: fetched
+    sha256: ab0e38514941445f80349ffe8cb1b4effcd4ee8bec20670a0ff6fc4c4c67ff3f
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2026-01-14
+    file: dis-ukraine-2026-01-14.html
+    url: "https://www.kyivpost.com/post/68109"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 14 January 2026
+    published: 2026-01-14
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 4fc2b4c828a611fe5d01175945bb66ddafe809197c97783f1b27f748d34f75b1
+    note: Terse dated DIS sub-register; discrete KJ block.; licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-04-14
+    file: dis-ukraine-2025-04-14.html
+    url: "https://www.kyivpost.com/post/50784"
+    publisher: MoD (mirror)
+    title: Defence Intelligence Update on Ukraine, 14 April 2025
+    published: 2025-04-14
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 63961c259ad1fead1791697a143793047226c4204c8803141aeee39ef5d59659
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: fca-fast-remit-final-notice-2024
+    file: fca-fast-remit-final-notice-2024.pdf
+    url: "https://www.fca.org.uk/publication/final-notices/fast-remit-ltd-2024.pdf"
+    publisher: Financial Conduct Authority
+    title: "Final Notice: Fast Remit Ltd (2024)"
+    published: 2024
+    class: full_assessment
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: bc6ed6ce2b2227539f49266ddce37183e9c793223a6b6913e237b2c9a4ef9b89
+    note: Financial-crime regulator register (money-laundering) — closest to the regulatory use case; new publisher. licence set 2026-08-21 by rule; verify before publication
+
+  - id: ncsc-impact-ai-cyber-threat-2027
+    file: ncsc-impact-ai-cyber-threat-2027.pdf
+    url: "https://www.ncsc.gov.uk/sites/default/files/pdfs/publication/impact-ai-cyber-threat-now-2027.pdf"
+    publisher: NCSC
+    title: Impact of AI on the cyber threat to the UK (2027)
+    published: 2025-05-07
+    class: full_assessment
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: c76909b2be8fbfc6705735e8f0c1883c6af2a2273529662a8d6427f3be712ebc
+    note: "National Cyber Security Centre analytic register; 8th distinct positive publisher.; published 7 May 2025 per 'PUBLISHED 7 May 2025' in extracted text; 2027 is the assessment horizon year, not the publication year; licence set 2026-08-21 by rule; verify before publication"
+
+  - id: press-bbc-chilcot-keypoints
+    file: press-bbc-chilcot-keypoints.html
+    url: "https://www.bbc.com/news/uk-politics-36721645"
+    publisher: BBC News (press pair)
+    title: "Chilcot report: findings at-a-glance (press)"
+    published: 2016-07-06
+    class: negative_press
+    licence: all-rights-reserved
+    extract: html
+    status: fetched
+    sha256: 7d98066a4c0cdcddfbbc8b7e06912fd4bcd1a01decd0bcc4dd7c8a060e89bfd6
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: press-independent-russia-2020
+    file: press-independent-russia-2020.html
+    url: "https://www.independent.co.uk/news/uk/politics/russia-report-national-security-summary-details-breaks-elections-boris-a9630241.html"
+    publisher: The Independent (press pair)
+    title: "Russia report: key points from the dossier (press)"
+    published: 2020-07-21
+    class: negative_press
+    licence: all-rights-reserved
+    extract: html
+    status: fetched
+    sha256: a9042fd29f437e426335bf14b1c8e253310429156e12a54cfb0a3bf913e2e920
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: press-guardian-chilcot-keypoints
+    file: press-guardian-chilcot-keypoints.html
+    url: "https://www.theguardian.com/uk-news/2016/jul/06/iraq-inquiry-key-points-from-the-chilcot-report"
+    publisher: The Guardian (press pair)
+    title: "Chilcot report: key points from the Iraq inquiry (press)"
+    published: 2016-07-06
+    class: negative_press
+    licence: all-rights-reserved
+    extract: html
+    status: fetched
+    sha256: d3d10b83d49c1776ba46c65883b94340b08307fed61204b241aa93f6ab46e480
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2026-06-26
+    file: dis-ukraine-2026-06-26.html
+    url: "https://www.kyivpost.com/post/79100"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2026-06-26
+    published: 2026-06-26
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: e5a3785a1921d84d616b6dc50295c5ee7381e4422fbb28cf0eecf1858e93a6aa
+    note: Terse dated DIS sub-register; each update is one estimative assessment (a KJ).; licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2026-03-27
+    file: dis-ukraine-2026-03-27.html
+    url: "https://www.kyivpost.com/post/72795"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2026-03-27
+    published: 2026-03-27
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 490cd43dd6c051be188659a730c1bd9b6c36550a8a4fbc4ff0e522d9fb166f2b
+    note: Terse dated DIS sub-register; each update is one estimative assessment (a KJ).; licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2026-03-13
+    file: dis-ukraine-2026-03-13.html
+    url: "https://www.kyivpost.com/post/71996"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2026-03-13
+    published: 2026-03-13
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: ea4bdfd5c9188d6fc248dca0c7636a5a64bc4014c4c7981b3088e185725d8d0e
+    note: Terse dated DIS sub-register; each update is one estimative assessment (a KJ).; licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2026-04-01
+    file: dis-ukraine-2026-04-01.html
+    url: "https://www.kyivpost.com/post/73007"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2026-04-01
+    published: 2026-04-01
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: e034c25ded255a49150483bd9ae85745df750c41d2c3bab2f32050e23a7584f6
+    note: Terse dated DIS sub-register; each update is one estimative assessment (a KJ).; licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2026-02-26
+    file: dis-ukraine-2026-02-26.html
+    url: "https://www.kyivpost.com/post/70956"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2026-02-26
+    published: 2026-02-26
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 1e1180e2322658d4f44c56fd23c9a76b6dd252fc0f3d7fe9e4ddb3488f87d772
+    note: Terse dated DIS sub-register; each update is one estimative assessment (a KJ).; licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2026-02-14
+    file: dis-ukraine-2026-02-14.html
+    url: "https://www.kyivpost.com/post/70050"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2026-02-14
+    published: 2026-02-14
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 2747d798a0baf8ea7944cf95a2e5dab719b14843ee98f6304be07da0b22838e4
+    note: Terse dated DIS sub-register; each update is one estimative assessment (a KJ).; licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2026-01-29
+    file: dis-ukraine-2026-01-29.html
+    url: "https://www.kyivpost.com/post/69037"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2026-01-29
+    published: 2026-01-29
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 9df5a99ec8072e73944877551ba111d5a70fcc13e96cd3cf2389abac2ad49e6a
+    note: Terse dated DIS sub-register; each update is one estimative assessment (a KJ).; licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2026-02-11
+    file: dis-ukraine-2026-02-11.html
+    url: "https://www.kyivpost.com/post/69928"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2026-02-11
+    published: 2026-02-11
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: e7c8059c6d74463d397d9d8dcad15f8a87d42f4a1eae5416bff9f0330ba3d1fd
+    note: Terse dated DIS sub-register; each update is one estimative assessment (a KJ).; licence set 2026-08-21 by rule; verify before publication
+
+  - id: nca-nsa-2021
+    file: nca-nsa-2021.pdf
+    url: "https://www.nationalcrimeagency.gov.uk/images/campaign/NSA/PDFs/nsa-2021.pdf"
+    publisher: National Crime Agency
+    title: National Strategic Assessment of Serious and Organised Crime 2021
+    published: 2021
+    class: key_judgements
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: d91480eb660b4064e3e6f2a3186f111fc259ad5ce0b7389a3b12b0d1bae44d76
+
+  - id: nca-nsa-2023
+    file: nca-nsa-2023.pdf
+    url: "https://www.nationalcrimeagency.gov.uk/images/campaign/NSA/PDFs/NSA_2023_Website_-_PDF_Version_1.pdf"
+    publisher: National Crime Agency
+    title: National Strategic Assessment of Serious and Organised Crime 2023
+    published: 2023
+    class: key_judgements
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: 76e4276fe3509d2e442b4ac059b9bb6c6d3e94990d8ec3e483c7d169733bf85e
+
+  - id: nca-nsa-2024
+    file: nca-nsa-2024.pdf
+    url: "https://www.nationalcrimeagency.gov.uk/images/campaign/NSA/PDFs/NSA_2024_Website_-_PDF_Version_1.pdf"
+    publisher: National Crime Agency
+    title: National Strategic Assessment of Serious and Organised Crime 2024
+    published: 2024
+    class: key_judgements
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: a5cf858dcc491cd340d6e1fc012a031f745f568849140b4973a9f66f5dd371f7
+
+  - id: nca-nsa-2025
+    file: nca-nsa-2025.pdf
+    url: "https://www.nationalcrimeagency.gov.uk/images/campaign/NSA/PDFs/NSA%202025%20Website%20-%20PDF%20Version%20v1.0.pdf"
+    publisher: National Crime Agency
+    title: National Strategic Assessment of Serious and Organised Crime 2025
+    published: 2025
+    class: key_judgements
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: 3a0cff00b7e94c05450c8a19ea20012a10f2a630ea5af283973af94dfc8d0c82
+
+  - id: nca-nsa-2026
+    file: nca-nsa-2026.pdf
+    url: "https://www.nationalcrimeagency.gov.uk/images/campaign/NSA/PDFs/NSA%202026%20Website%20-%20PDF%20Version%20-%20v2.0.pdf"
+    publisher: National Crime Agency
+    title: National Strategic Assessment of Serious and Organised Crime 2026
+    published: 2026
+    class: key_judgements
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: 1f0bcbc801837a0342738603149e0624fced96e4f3d259eccf2e9af1105895c9
+
+  - id: dis-ukraine-2026-07-10
+    file: dis-ukraine-2026-07-10.html
+    url: "https://www.kyivpost.com/post/80241"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2026-07-10
+    published: 2026-07-10
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: be73695dacadde040931e56328381dc0bee09eb76379bf12a77cb035ddce3eed
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2026-07-02
+    file: dis-ukraine-2026-07-02.html
+    url: "https://www.kyivpost.com/post/79585"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2026-07-02
+    published: 2026-07-02
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: e515e8ce8a5e0f94cef2c200b614b96a67029b83e385f210a88bee249ae54ed4
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2026-07-03
+    file: dis-ukraine-2026-07-03.html
+    url: "https://www.kyivpost.com/post/79679"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2026-07-03
+    published: 2026-07-03
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 380f5b65b0fcf7f3859b99c82c46b125862c5afc9d0719d699d25eb7f1c419c3
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2026-05-12
+    file: dis-ukraine-2026-05-12.html
+    url: "https://www.kyivpost.com/post/76101"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2026-05-12
+    published: 2026-05-12
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: a5a5c0dc2247cc7c44f9fd088d893c4f25769e701fc4d2d26a0b7ff1046732c2
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2026-06-01
+    file: dis-ukraine-2026-06-01.html
+    url: "https://www.kyivpost.com/post/77479"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2026-06-01
+    published: 2026-06-01
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 2ca70a01b5243978c373f9f8694563618b6967d164611ba015b77bd9f1f5d1f3
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2026-06-03
+    file: dis-ukraine-2026-06-03.html
+    url: "https://www.kyivpost.com/post/77480"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2026-06-03
+    published: 2026-06-03
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: b440fa3ceebd8fd46733554384364fb2f73a1c781aa14b20761c480c858cf98e
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-12-12
+    file: dis-ukraine-2025-12-12.html
+    url: "https://www.kyivpost.com/post/66112"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-12-12
+    published: 2025-12-12
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 484f4ac45887e4f607bd52dc40db72ca15db8e2bd0683de721f2f7dec2212062
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-12-20
+    file: dis-ukraine-2025-12-20.html
+    url: "https://www.kyivpost.com/post/66661"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-12-20
+    published: 2025-12-20
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: c78181d8e7a811fed642594cafc7d11a7b8e9ea06954f935167c047770be7ef7
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-12-03
+    file: dis-ukraine-2025-12-03.html
+    url: "https://www.kyivpost.com/post/65569"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-12-03
+    published: 2025-12-03
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 6222a41324e420d8507a28da4417d6ad2a7afa8283b55fdc12c2166ac60a9972
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-10-24
+    file: dis-ukraine-2025-10-24.html
+    url: "https://www.kyivpost.com/post/62966"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-10-24
+    published: 2025-10-24
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 71d736386cfc4884e6a560437f81255a331225daa3514142717796827a3b2030
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-11-28
+    file: dis-ukraine-2025-11-28.html
+    url: "https://www.kyivpost.com/post/65392"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-11-28
+    published: 2025-11-28
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 5ff98c6fddf0d617c0fd0911b1a190853fe90db00e9b273100b69ada37730616
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-11-08
+    file: dis-ukraine-2025-11-08.html
+    url: "https://www.kyivpost.com/post/63916"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-11-08
+    published: 2025-11-08
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 05b5eedc6efb66f1d072d45dbfffee9a37eac71ee95986539ed42ae7e583ce55
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-11-27
+    file: dis-ukraine-2025-11-27.html
+    url: "https://www.kyivpost.com/post/65143"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-11-27
+    published: 2025-11-27
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: e2c2eb7f9ae03c912c1096722a6bfd5c62568bde0bcd57e05ddfb239f1003dbd
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-10-06
+    file: dis-ukraine-2025-10-06.html
+    url: "https://www.kyivpost.com/post/61737"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-10-06
+    published: 2025-10-06
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: c5de107b02a6f285c62ee0373d5062a8b4cea4930ab9e2a64f2d2b51bced30a8
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-10-14
+    file: dis-ukraine-2025-10-14.html
+    url: "https://www.kyivpost.com/post/62122"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-10-14
+    published: 2025-10-14
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: d911e0ebe3a0bbd42ced5392eb73c495da383892e80c6e4e3dc37fccfcada7c5
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-11-01
+    file: dis-ukraine-2025-11-01.html
+    url: "https://www.kyivpost.com/post/63883"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-11-01
+    published: 2025-11-01
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 7188056764e22ebfe6586df286603c1cd873bcfdf6a175fb126e8d1c42c37673
+    note: "re-pinned 2026-08-21: mirror page changed post-fetch; original bytes unrecoverable; licence set 2026-08-21 by rule; verify before publication"
+
+  - id: dis-ukraine-2025-09-19
+    file: dis-ukraine-2025-09-19.html
+    url: "https://www.kyivpost.com/post/60521"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-09-19
+    published: 2025-09-19
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 711066482d6d5f40f0f4808bc8f3448822ebc1f2d4a3a61191eb6fe60b558c52
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-08-15
+    file: dis-ukraine-2025-08-15.html
+    url: "https://www.kyivpost.com/post/58296"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-08-15
+    published: 2025-08-15
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: adc19ddbd37d440cd8099c8b3ca585e41401b8863ab973f637bc80a90726d97a
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-08-20
+    file: dis-ukraine-2025-08-20.html
+    url: "https://www.kyivpost.com/post/58678"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-08-20
+    published: 2025-08-20
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 7956a6c6eed433a8a9a2a2dcf73f26e279a8cc75a2854ddf72077ab64c61dbd9
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-08-09
+    file: dis-ukraine-2025-08-09.html
+    url: "https://www.kyivpost.com/post/57825"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-08-09
+    published: 2025-08-09
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 2e1a5f89def8d7b2396b70de63cdd9ba207f00b3bd93e71fad701402ffec2de5
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-03-05
+    file: dis-ukraine-2025-03-05.html
+    url: "https://www.kyivpost.com/post/48354"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-03-05
+    published: 2025-03-05
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 17a47a8cdcc075df70485e151c504f01f7a10c00f40c814a6490aeffc9b0b680
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-03-30
+    file: dis-ukraine-2025-03-30.html
+    url: "https://www.kyivpost.com/post/49858"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-03-30
+    published: 2025-03-30
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 87ec01da12a0be7fe3e1a0921094d898b9b2957fbb2c358ff07943340f375073
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-02-07
+    file: dis-ukraine-2025-02-07.html
+    url: "https://www.kyivpost.com/post/46789"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-02-07
+    published: 2025-02-07
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: d9fe6b215c911d8f388c01810319907d894057b30ad57b22a5c944b81c6b0dcf
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-03-28
+    file: dis-ukraine-2025-03-28.html
+    url: "https://www.kyivpost.com/post/49814"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-03-28
+    published: 2025-03-28
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 1d3cec2fd5f801a73ff6633676bb90427d673181da3215469776f82fa3b3b0be
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-02-03
+    file: dis-ukraine-2025-02-03.html
+    url: "https://www.kyivpost.com/post/46520"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-02-03
+    published: 2025-02-03
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 25a0c3db0cf9c88abaa9c09da98c6396a4a4753fd9176c35db5cd87c8bbfb076
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-02-14
+    file: dis-ukraine-2025-02-14.html
+    url: "https://www.kyivpost.com/post/47183"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-02-14
+    published: 2025-02-14
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 66ffadb27e20dfa9ec4c5a0acf0eac0ece3f8f0447ca73445f593282f0eea7f4
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-02-05
+    file: dis-ukraine-2025-02-05.html
+    url: "https://www.kyivpost.com/post/46665"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-02-05
+    published: 2025-02-05
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 1bbebb391f1a7f8485dafa5339acd15d57b4ddc264dab46349b9c1ec79fbd35c
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-02-21
+    file: dis-ukraine-2025-02-21.html
+    url: "https://www.kyivpost.com/post/47659"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-02-21
+    published: 2025-02-21
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: adc9d775fff9f25f873eb98a3c9fac7ec3961ec7aa6b64d5dbf21579eed2dea2
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-01-29
+    file: dis-ukraine-2025-01-29.html
+    url: "https://www.kyivpost.com/post/46243"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-01-29
+    published: 2025-01-29
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: bb28779225db3d2e796dc010aa964a82c4fe4b7f3fae6d644e6c8bef836d51ca
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-02-27
+    file: dis-ukraine-2025-02-27.html
+    url: "https://www.kyivpost.com/post/47996"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-02-27
+    published: 2025-02-27
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: ae4ecf261920a070d5f9d9ba07a4cdec4eb7048cb5a4f8cb328d9ffe03a154f7
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: odni-covid-origins-2021
+    file: odni-covid-origins-2021.pdf
+    url: "https://web.archive.org/web/2023/https://www.odni.gov/files/ODNI/documents/assessments/Declassified-Assessment-on-COVID-19-Origins.pdf"
+    publisher: ODNI
+    title: Updated Assessment on COVID-19 Origins (US ICU)
+    published: 2021
+    class: negative_us
+    licence: us-public-domain
+    extract: pdf
+    status: fetched
+    sha256: a46456bb362705dd9e5c8f23ee1a4c8432a787b95f46cef957fc3907e083e933
+    note: "Real US-IC register (Key Takeaways / judgments / assessment responds), fetched via Wayback; the UK-vs-US discriminator's USIC negative cohort.; licence set 2026-08-21 by rule; verify before publication"
+
+  - id: ca-itac-threat-2018
+    file: ca-itac-threat-to-canada-2018.pdf
+    url: "https://publications.gc.ca/collections/collection_2018/sp-ps/PS1-16-2018-eng.pdf"
+    publisher: Public Safety Canada (ITAC)
+    title: Terrorist Threat to Canada 2018 (CA-IC)
+    published: 2018
+    class: ca_ic
+    licence: crown-canada
+    extract: pdf
+    status: fetched
+    sha256: 663c194f6b9b671c4f94de5b65e37915e887585ba7f623f283f2077cfac5baf2
+    note: Canadian Integrated Terrorism Assessment Centre register - the CA-IC leg.; licence set 2026-08-21 by rule; verify before publication
+
+  - id: au-counter-terrorism-plan
+    file: au-counter-terrorism-plan.pdf
+    url: "https://www.nationalsecurity.gov.au/what-australia-is-doing-subsite/Files/anzctc-national-counter-terrorism-plan.PDF"
+    publisher: Australian National Security
+    title: Australia National Counter-Terrorism Plan
+    published: 2024
+    class: au_ic
+    licence: cc-by-au
+    extract: pdf
+    status: fetched
+    sha256: c9256e85cfe2101dda4824b59d2ad3d4b04421c8ced83bc849a45b32caf41a7b
+    note: Australian security register - AU leg.; licence set 2026-08-21 by rule; verify before publication
+
+  - id: ca-2017-report
+    file: ca-tt-report-2017.pdf
+    url: "https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/pblc-rprt-trrrst-thrt-cnd-2017/pblc-rprt-trrrst-thrt-cnd-2017-en.pdf"
+    publisher: Public Safety Canada (ITAC)
+    title: Public Report on the Terrorist Threat to Canada 2017 (CA-IC)
+    published: 2018
+    class: ca_ic
+    licence: crown-canada
+    extract: pdf
+    status: fetched
+    sha256: d3f72bb08647331e7abfd3c1797ed04b47a84a8930297682b269dd9e2b7da31a
+    note: Substantive CA-IC leg (54k chars) - makes CA class classifiable.; licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-09-17
+    file: dis-ukraine-2025-09-17.html
+    url: "https://www.kyivpost.com/post/60308"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-09-17
+    published: 2025-09-17
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 0915fcdd966393b69bb6f9a42a3fe42805655c0abf84cbf06023cf15cd6a62a1
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-09-13
+    file: dis-ukraine-2025-09-13.html
+    url: "https://www.kyivpost.com/post/60166"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-09-13
+    published: 2025-09-13
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 6f8b3f7855bd43127137952cdbae3098f83446149d10ccf8ae9084c27d261a29
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-06-12
+    file: dis-ukraine-2025-06-12.html
+    url: "https://www.kyivpost.com/post/54516"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-06-12
+    published: 2025-06-12
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 49072112873cb264c72a86794a91ab1198106af216a45fc55c4d3267cb57d09b
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-01-03
+    file: dis-ukraine-2024-01-03.html
+    url: "https://www.kyivpost.com/post/44994"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-01-03
+    published: 2024-01-03
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 2130b20e3df21a298b3e466edb594d6a57dbd12cded21f5a72e689290e49d2c0
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: isc-china-2023
+    file: isc-china-2023.pdf
+    url: "https://isc.independent.gov.uk/reports/"
+    url_text: "https://en.wikisource.org/wiki/Intelligence_and_Security_Committee_China_report"
+    publisher: ISC
+    title: China (HC 1605)
+    published: 2023-07-13
+    class: key_judgements
+    licence: OPL
+    extract: pdf
+    status: fetched
+    sha256: 63d89ee2c2f9672d4e78d2cd21e5d3d05eb6c8ac5d0ff83de9357836c0cb6983
+    note: REAL report recovered 2026-08-23 via Wayback snapshot 20230713101159id_ (2.5MB PDF, hash computed from bytes) — replaces the invalid Wikisource stub; original live site unreachable from build network.
+
+  - id: phia-analytical-standards
+    file: phia-analytical-standards.html
+    url: "https://www.gov.uk/government/publications/phia-common-analytical-standards/phia-common-analytical-standards"
+    publisher: PHIA
+    title: PHIA Common Analytical Standards
+    class: spec
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 635ad836b535f89f0c6ab6b42d9c9b6a621c9792a7906e08348e6df41dbc4b34
+    note: Vocabulary-spec page, not corpus prose; input to spec/style.md.
+
+  - id: phia-explain-uncertainty
+    file: phia-explain-uncertainty.html
+    url: "https://www.gov.uk/government/publications/explaining-uncertainty-in-uk-intelligence-assessment/explaining-uncertainty-in-uk-intelligence-assessment"
+    publisher: PHIA
+    title: Explaining Uncertainty in UK Intelligence Assessment
+    published: 2016
+    class: spec
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 9672c7ab7939c7e7de1d952267966699530b0e8f10403cd938c22746a855656a
+    note: Probability Yardstick 7-term ladder; verify bands against live page.
+
+  - id: press-russia-report-guardian-2020
+    file: press-guardian-russia-2020.html
+    url: "https://www.theguardian.com/world/2020/jul/21/russia-report-uk-election-interference"
+    publisher: Guardian (press pair)
+    title: Press coverage — ISC Russia Report
+    published: 2020-07-21
+    class: negative_press
+    licence: all-rights-reserved
+    extract: html
+    status: fetched
+    sha256: 5a504aff032fe8faab92965fc40e0c4bcaa7709d90347f0d14415572e6a0586a
+    note: Press treatment of the same event as isc-russia-2020; pairs for the contrast discriminator.
+
+  - id: press-7july-bbc-key-findings-2009
+    file: press-7july-bbc-key-findings-2009.stm
+    url: "https://www.bbc.co.uk/2/hi/uk_news/4760919.stm"
+    publisher: BBC News (press pair)
+    title: "Key findings: 7 July report"
+    published: 2009-05-11
+    class: negative_press
+    licence: all-rights-reserved
+    extract: html
+    status: fetched
+    sha256: b4ee1cfca1e9c16bc6de0234d35a24b05e6d350a331d70e9a02ba8b761c5f6b6
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: press-chilcot-guardian-analysis-2016
+    url: "https://www.theguardian.com/uk-news/2016/jul/06/iraq-inquiry-key-findings-from-the-chilcot-report"
+    publisher: Guardian (press pair)
+    title: Key findings from the Chilcot report
+    published: 2016-07-06
+    class: negative_press
+    licence: all-rights-reserved
+    extract: html
+    status: candidate
+    note: "licence set 2026-08-21 by rule; verify before publication | promote attempt 2026-08-22: live URL 404s; Wayback 2018-prefix 404 and CDX API 403 from this network. Dead until archive access changes."
+
+  - id: dis-ukraine-2026-02-20
+    file: dis-ukraine-2026-02-20.html
+    url: "https://www.kyivpost.com/post/70510"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 20 February 2026
+    published: 2026-02-20
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 7c04fdfbff11d316da534de4bd0eca6902d547d56d2fd67bb241deb3b167c4de
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2026-01-24
+    file: dis-ukraine-2026-01-24.html
+    url: "https://www.kyivpost.com/post/68733"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2026-01-24
+    published: 2026-01-24
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: f38c759fced4e9cd80c676de63344068cef0628d32ccdd19f082bb78eb0755ab
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2026-01-16
+    file: dis-ukraine-2026-01-16.html
+    url: "https://www.kyivpost.com/post/68244"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2026-01-16
+    published: 2026-01-16
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 49b8ecdcfcd244c6a6801ede4a3eda194a43cb1c3e8b0621e6e6d7cca596f319
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2026-01-09
+    file: dis-ukraine-2026-01-09.html
+    url: "https://www.kyivpost.com/post/67805"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2026-01-09
+    published: 2026-01-09
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: d9bc89299a89dc906316bad2142a9964635c8a3d79db0c4a84e8b9ae5c652f00
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-12-26
+    file: dis-ukraine-2025-12-26.html
+    url: "https://www.kyivpost.com/post/66983"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-12-26
+    published: 2025-12-26
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 17fe0976afb5bb24ea8be5184bb193d580903fed23f5e22219bc00e57576aad7
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-12-06
+    file: dis-ukraine-2025-12-06.html
+    url: "https://www.kyivpost.com/post/65752"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-12-06
+    published: 2025-12-06
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: af3ccd82e7faa1bae3f045926491485f669e7435862757a407e71098247d4c02
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-09-25
+    file: dis-ukraine-2025-09-25.html
+    url: "https://www.kyivpost.com/post/60990"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-09-25
+    published: 2025-09-25
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: d660d228d89ee50fb4bb1f673926bcfdbec7b91b1cd8bff28adfad84a6722954
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-09-06
+    file: dis-ukraine-2025-09-06.html
+    url: "https://www.kyivpost.com/post/59648"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-09-06
+    published: 2025-09-06
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: a31fff0fc1fb769d98baa0809497b5b5cc22fcd2aabd7e7a3fdc6a02909baeeb
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-07-18
+    file: dis-ukraine-2025-07-18.html
+    url: "https://www.kyivpost.com/post/56605"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-07-18
+    published: 2025-07-18
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: ca9d5272379b95d0aae7cddf678a52d905c33262d57d30caa123acaf572b609d
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-07-07
+    file: dis-ukraine-2025-07-07.html
+    url: "https://www.kyivpost.com/post/55838"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-07-07
+    published: 2025-07-07
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: f67f7bc2c4d3fddfd6c5f4661fc1ba5a00562c632b5f06e1ff9d838b59430462
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-07-05
+    file: dis-ukraine-2025-07-05.html
+    url: "https://www.kyivpost.com/post/55754"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-07-05
+    published: 2025-07-05
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 50cd18e4ca26e8f8a718c86d02d78ecefce4123375d3df36a20766a96a62e640
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-07-01
+    file: dis-ukraine-2025-07-01.html
+    url: "https://www.kyivpost.com/post/55552"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-07-01
+    published: 2025-07-01
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: e83dbc9b6bb40746ced958b3d21147b3895b0dd7fcbfa0bdc33e3ee1d2a45062
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-06-30
+    file: dis-ukraine-2025-06-30.html
+    url: "https://www.kyivpost.com/post/55455"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-06-30
+    published: 2025-06-30
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: d194293b734fe70d45b342d034351dcb093295cf25cc74824e140e1e6c1a8597
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-06-21
+    file: dis-ukraine-2025-06-21.html
+    url: "https://www.kyivpost.com/post/54976"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-06-21
+    published: 2025-06-21
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 48f6352d98f3201d308c306e41fb76dfc939c00d3f9730f98b5d2aeba51e83aa
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-06-19
+    file: dis-ukraine-2025-06-19.html
+    url: "https://www.kyivpost.com/post/54838"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-06-19
+    published: 2025-06-19
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: b202a6f29e535d212f3639b2d3de69d169963a212741a418222b61336bbe7ea6
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-06-17
+    file: dis-ukraine-2025-06-17.html
+    url: "https://www.kyivpost.com/post/54705"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-06-17
+    published: 2025-06-17
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 68c9aaaab750f380e5032fac527b5c5eed4570512319848cd4b9161b60cf83e5
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-06-15
+    file: dis-ukraine-2025-06-15.html
+    url: "https://www.kyivpost.com/post/54591"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-06-15
+    published: 2025-06-15
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 2aaf0da65bdb4ada5b42b4f2b2f17d54fba064f181591c46d19bea9062b2c12e
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-05-30
+    file: dis-ukraine-2025-05-30.html
+    url: "https://www.kyivpost.com/post/53703"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-05-30
+    published: 2025-05-30
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 701d932966786b3e514aa8200ae9e827f45701aabf67a3c1c243c1a65310aa3e
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-05-27
+    file: dis-ukraine-2025-05-27.html
+    url: "https://www.kyivpost.com/post/53471"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-05-27
+    published: 2025-05-27
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 43ef978de5767ba7273fac1a9ac2ad72d9f7be63719e3f9d92a9f200c97c7c1c
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-05-19
+    file: dis-ukraine-2025-05-19.html
+    url: "https://www.kyivpost.com/post/53088"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-05-19
+    published: 2025-05-19
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: de47bfbc96192fa72fca21e1daea818f0fe6677cf8c12c1942aa441ceb318110
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-05-17
+    file: dis-ukraine-2025-05-17.html
+    url: "https://www.kyivpost.com/post/52909"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-05-17
+    published: 2025-05-17
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 826512b7cdf174920e4c834db28f081f527a65e4a6a5921e44d9d20bfb634d68
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-05-14
+    file: dis-ukraine-2025-05-14.html
+    url: "https://www.kyivpost.com/post/52627"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-05-14
+    published: 2025-05-14
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 83d0ea3a1e9126075a1fe5306bd48c47e2fa701d9bc480e25cfc93d01c293fa1
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-05-09
+    file: dis-ukraine-2025-05-09.html
+    url: "https://www.kyivpost.com/post/52420"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-05-09
+    published: 2025-05-09
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: b0c3c902fef179cb75fb01ca11983f2164395bce27d7dc6be523448d658e8481
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-05-03
+    file: dis-ukraine-2025-05-03.html
+    url: "https://www.kyivpost.com/post/51967"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-05-03
+    published: 2025-05-03
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: a10c1a7ce3fd914af6ef64d2f30f822c221299fc503574b283a999aa464b0047
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-04-29
+    file: dis-ukraine-2025-04-29.html
+    url: "https://www.kyivpost.com/post/51740"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-04-29
+    published: 2025-04-29
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 41dc0f0418ff6d76fe6901e1dc8f772bb9f142cedcdb22d320b18d75d1c44a96
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-04-27
+    file: dis-ukraine-2025-04-27.html
+    url: "https://www.kyivpost.com/post/51559"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-04-27
+    published: 2025-04-27
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 61afbbea16274b246937ba915027406ee8315858d803135423949132f16b754c
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-04-25
+    file: dis-ukraine-2025-04-25.html
+    url: "https://www.kyivpost.com/post/51513"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-04-25
+    published: 2025-04-25
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 50a88e8d92fba50eb91b4a858342c419d2f34febf72827ef89af21ea98cd7a6f
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-04-22
+    file: dis-ukraine-2025-04-22.html
+    url: "https://www.kyivpost.com/post/51280"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-04-22
+    published: 2025-04-22
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: d341030c7499b2997a83dbdb14df00bd162887e0e4d3f19f1f0d4253d798b8fc
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-04-18
+    file: dis-ukraine-2025-04-18.html
+    url: "https://www.kyivpost.com/post/51082"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-04-18
+    published: 2025-04-18
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: d37edc7eee466fcf0e883efd48c4ac2f6e1bb4e79ba6702fdd349cdcd6bd19f0
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-04-12
+    file: dis-ukraine-2025-04-12.html
+    url: "https://www.kyivpost.com/post/50693"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-04-12
+    published: 2025-04-12
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: ad84b9818c612b75af606086f24e4705dc5e629af93607aecbd48bf7a6aafc63
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-04-05
+    file: dis-ukraine-2025-04-05.html
+    url: "https://www.kyivpost.com/post/50258"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-04-05
+    published: 2025-04-05
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: ac69603a083b8e0720709303adc9c4c7b763ad3f442af9d3e5147eb691b4ab93
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-03-25
+    file: dis-ukraine-2025-03-25.html
+    url: "https://www.kyivpost.com/post/49557"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-03-25
+    published: 2025-03-25
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: e0f8772202eef0d71b75b2c656cdd4dbf6e1510711f40b8a9ae5943caf2623c2
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-03-20
+    file: dis-ukraine-2025-03-20.html
+    url: "https://www.kyivpost.com/post/49259"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-03-20
+    published: 2025-03-20
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 9518345c167adf0b30c5c5f4677a1dbb84873cff931b6209c6e168dccdd06e94
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-03-14
+    file: dis-ukraine-2025-03-14.html
+    url: "https://www.kyivpost.com/post/48914"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-03-14
+    published: 2025-03-14
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: b7ec2623ff6e17e425baa0455ca23487a5131f5b87b360539b3a2fdb654ba096
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-03-10
+    file: dis-ukraine-2025-03-10.html
+    url: "https://www.kyivpost.com/post/48699"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-03-10
+    published: 2025-03-10
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 711a6ab6d7c22ecc2be9dadbc6541a1db2c91868b3336c2d867cc83832fbfe9d
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-03-08
+    file: dis-ukraine-2025-03-08.html
+    url: "https://www.kyivpost.com/post/48519"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-03-08
+    published: 2025-03-08
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 09734fb2c211f432834162c1727c133fe3dfb29b3f5bcc78a2390ee4640f81ad
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-03-07
+    file: dis-ukraine-2025-03-07.html
+    url: "https://www.kyivpost.com/post/48460"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-03-07
+    published: 2025-03-07
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: fb1b3a226766bc5e58dc3446ca40bf495066e68644b34eff828a96b569355177
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-03-01
+    file: dis-ukraine-2025-03-01.html
+    url: "https://www.kyivpost.com/post/48108"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-03-01
+    published: 2025-03-01
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 1f6cc196a1a1ed4c45e48dd242927d640c68cdfa3d49d7086b1d7507d2bc4edf
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-01-23
+    file: dis-ukraine-2025-01-23.html
+    url: "https://www.kyivpost.com/post/45990"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-01-23
+    published: 2025-01-23
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 22568bb2c475293393ea9e866f48842ff2588fe815ecef2cdcab37fa2ba99be3
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-01-21
+    file: dis-ukraine-2025-01-21.html
+    url: "https://www.kyivpost.com/post/45815"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-01-21
+    published: 2025-01-21
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: bf0775fd1ecef35cf1dd7dab26f1c3c67ce2f57f292cfc300a4fde74668c130a
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-01-19
+    file: dis-ukraine-2025-01-19.html
+    url: "https://www.kyivpost.com/post/45684"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-01-19
+    published: 2025-01-19
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 4a5d5e2f8c726f9f242d04acef463df0b29dd7fe6db59e5087b53195705a6193
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-01-17
+    file: dis-ukraine-2025-01-17.html
+    url: "https://www.kyivpost.com/post/45600"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-01-17
+    published: 2025-01-17
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: c174302bf8ab3517d8a0b0e838013229b9bb560d9acc216f44f871abd314839d
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-01-15
+    file: dis-ukraine-2025-01-15.html
+    url: "https://www.kyivpost.com/post/45533"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-01-15
+    published: 2025-01-15
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 8e606d2041bc725da7143f98d1424a17ab5c2d06ef6e76d7433e4d48d07d581e
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-01-10
+    file: dis-ukraine-2025-01-10.html
+    url: "https://www.kyivpost.com/post/45280"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-01-10
+    published: 2025-01-10
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: ff3c322fd55c9abf1d223d00a26ca485218d997358450977d4a27ebf4ae02861
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2025-01-09
+    file: dis-ukraine-2025-01-09.html
+    url: "https://www.kyivpost.com/post/45274"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-01-09
+    published: 2025-01-09
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 3efc8be4a9a4c180dc4cdd444bef691b3ad12f0318e519fccf9f20827f61af05
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-12-30
+    file: dis-ukraine-2024-12-30.html
+    url: "https://www.kyivpost.com/post/44670"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-12-30
+    published: 2024-12-30
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: ad74ec47cc98b34519cf776c4726b4ddaa353926ac452f39568bfeedbbdd604b
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-12-28
+    file: dis-ukraine-2024-12-28.html
+    url: "https://www.kyivpost.com/post/44602"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-12-28
+    published: 2024-12-28
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 4c5ec9d69a71e287a94e350ee5809f084a1de6a0752ade1c96b58ffbe361f207
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-12-23
+    file: dis-ukraine-2024-12-23.html
+    url: "https://www.kyivpost.com/post/44355"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-12-23
+    published: 2024-12-23
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 77bddc03a305ee168d2a1369c0befc30f274bb7ecb1ee53ac9bf400346b8bd52
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-12-17
+    file: dis-ukraine-2024-12-17.html
+    url: "https://www.kyivpost.com/post/44088"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-12-17
+    published: 2024-12-17
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 3e4241bb4a64d2a613125da310e77d627855e4a1f84d697539a4bd82efddc866
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-12-15
+    file: dis-ukraine-2024-12-15.html
+    url: "https://www.kyivpost.com/post/43942"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-12-15
+    published: 2024-12-15
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: a171d9ceb4a89486adeecfb759c986f489fb73830f0ac22b3a07aad3d36bf6f9
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-12-13
+    file: dis-ukraine-2024-12-13.html
+    url: "https://www.kyivpost.com/post/43855"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-12-13
+    published: 2024-12-13
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 3e52353cdf88e7e39304418a87a4b0b0b3c6b7fa7dfc790c23f06589c34dc09e
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-12-11
+    file: dis-ukraine-2024-12-11.html
+    url: "https://www.kyivpost.com/post/43727"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-12-11
+    published: 2024-12-11
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 08638bcef9cec7e66800fd1a83bf64cda3e1042e36d5fa98b33d6a2b4f54fc8c
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-12-09
+    file: dis-ukraine-2024-12-09.html
+    url: "https://www.kyivpost.com/post/43604"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-12-09
+    published: 2024-12-09
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 26bd091df59cd51a5f6022b283756ecae35e1213159ef7699a28ca707d63c178
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-12-05
+    file: dis-ukraine-2024-12-05.html
+    url: "https://www.kyivpost.com/post/43505"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-12-05
+    published: 2024-12-05
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: b533f9b8211f777c123a4e3ccb28217af0bf584d8405a98e6d8fd619caf9bd72
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-12-01
+    file: dis-ukraine-2024-12-01.html
+    url: "https://www.kyivpost.com/post/43133"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-12-01
+    published: 2024-12-01
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 2ea3e665af786ce9b9ded4c378d65df96419cf237ac3774a24329706c0a9a421
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-11-29
+    file: dis-ukraine-2024-11-29.html
+    url: "https://www.kyivpost.com/post/43091"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-11-29
+    published: 2024-11-29
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: c64a0eea0770526e8ae38aeb55c15af696fde5f2e1a1cef37f69fad5c4dbafba
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-11-27
+    file: dis-ukraine-2024-11-27.html
+    url: "https://www.kyivpost.com/post/43007"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-11-27
+    published: 2024-11-27
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 4ad3e44e4548ecb42e9068ceb36df3ca2a0b6c28f19005df54f8ecde17e4d98f
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-11-21
+    file: dis-ukraine-2024-11-21.html
+    url: "https://www.kyivpost.com/post/42661"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-11-21
+    published: 2024-11-21
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 0dcff2317e5787b4d2b96ef8c8662b95c69ea839f0070ed4ccf87fd422a187e1
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-11-20
+    file: dis-ukraine-2024-11-20.html
+    url: "https://www.kyivpost.com/post/42604"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-11-20
+    published: 2024-11-20
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 2bb7a9b5a54437bc4de73a4b6bdb65d579770f47ff7492ae15551ea433089853
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-11-15
+    file: dis-ukraine-2024-11-15.html
+    url: "https://www.kyivpost.com/post/42340"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-11-15
+    published: 2024-11-15
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 8b4eb21ce12926658ce265cbfd401c38b59d72a10da7f138c47f584727519e65
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-11-08
+    file: dis-ukraine-2024-11-08.html
+    url: "https://www.kyivpost.com/post/41964"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-11-08
+    published: 2024-11-08
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 40d5e00c97e2144bc1084edad4afd0538fb02a8be2da4a84c52cee00cc81788e
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-09-06
+    file: dis-ukraine-2024-09-06.html
+    url: "https://www.kyivpost.com/post/38606"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-09-06
+    published: 2024-09-06
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: f97cc59c18bc7ae6852fa7ec9da5652a4d43c0986561d5e1b2fb7030efdf2584
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-09-05
+    file: dis-ukraine-2024-09-05.html
+    url: "https://www.kyivpost.com/post/38560"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-09-05
+    published: 2024-09-05
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 143723ef63c2b7ca7d63314eb84dd01c521dc98296b52ab57e0b261f926fa370
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-09-02
+    file: dis-ukraine-2024-09-02.html
+    url: "https://www.kyivpost.com/post/38312"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-09-02
+    published: 2024-09-02
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: cd86705531a4fd777e3a7ea43a3c362b1349c4a601feefeb5bd0c5a24ae5ec63
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-09-01
+    file: dis-ukraine-2024-09-01.html
+    url: "https://www.kyivpost.com/post/38299"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-09-01
+    published: 2024-09-01
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 4e2486e2a255e22fc591c21265707f034e5fa93a579e519b6b7e78c1a59c9ae8
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-08-19
+    file: dis-ukraine-2024-08-19.html
+    url: "https://www.kyivpost.com/post/37613"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-08-19
+    published: 2024-08-19
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: f3895dafbdbded465d4d029e97231c4b0a357299c568a45b13955ab7a46fffc9
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-08-03
+    file: dis-ukraine-2024-08-03.html
+    url: "https://www.kyivpost.com/post/36826"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-08-03
+    published: 2024-08-03
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: f21cab162fc9df0dbe8f32987689a9cdac3099a19053aacf21bae6668acc5235
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-07-30
+    file: dis-ukraine-2024-07-30.html
+    url: "https://www.kyivpost.com/post/36593"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-07-30
+    published: 2024-07-30
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 847339f5c41ebb18e1d813bcd7ed172798c3f79a9200c8cc959a01846bc652e1
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-07-26
+    file: dis-ukraine-2024-07-26.html
+    url: "https://www.kyivpost.com/post/36430"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-07-26
+    published: 2024-07-26
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: c8d9e26b189667e7d0c2c7d1d564f6cd1155fd2752752e2801ca88f4a3a0c30d
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-07-24
+    file: dis-ukraine-2024-07-24.html
+    url: "https://www.kyivpost.com/post/36293"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-07-24
+    published: 2024-07-24
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 6737fca81eb838736448460ace5c111d9534b9c463b889454bc24e59912a1f6b
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-07-22
+    file: dis-ukraine-2024-07-22.html
+    url: "https://www.kyivpost.com/post/36189"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-07-22
+    published: 2024-07-22
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: cc98f4a78dc756c6d24319d810e8d97f7997fa3606906931b9bfd6f52e3cde2d
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-07-18
+    file: dis-ukraine-2024-07-18.html
+    url: "https://www.kyivpost.com/post/36011"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-07-18
+    published: 2024-07-18
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 6a204dc8e005421e386ddf2a06dbf5b8c818083202fff2233c9194a58639ff8b
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-07-16
+    file: dis-ukraine-2024-07-16.html
+    url: "https://www.kyivpost.com/post/35885"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-07-16
+    published: 2024-07-16
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 53ec17cd8e5eecd5aafa7b9b7462e3d205635f0a25ff45faecf9505653790757
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-07-15
+    file: dis-ukraine-2024-07-15.html
+    url: "https://www.kyivpost.com/post/35812"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-07-15
+    published: 2024-07-15
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 250fcdc6630c027639e549d061f14e5f3562747324da357ed512f7861dd9b1c2
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-07-12
+    file: dis-ukraine-2024-07-12.html
+    url: "https://www.kyivpost.com/post/35726"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-07-12
+    published: 2024-07-12
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 44acc6081fbe3fbd9dfc7529c1872d27ee56e3c63fa9cde33f638f5b173e6e07
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-05-26
+    file: dis-ukraine-2024-05-26.html
+    url: "https://www.kyivpost.com/post/33295"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-05-26
+    published: 2024-05-26
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 4645c7ccd6d86c9b6fae73e8bda653203bbcdf743e212e2c92432aaaddaa949c
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-05-18
+    file: dis-ukraine-2024-05-18.html
+    url: "https://www.kyivpost.com/post/32876"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-05-18
+    published: 2024-05-18
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 636fc2e323e83e19ff64ef3debfa3178177cc741e0676470ae093dac4ff6c90b
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-05-11
+    file: dis-ukraine-2024-05-11.html
+    url: "https://www.kyivpost.com/post/32483"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-05-11
+    published: 2024-05-11
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: abddd43a9ccd4f32f1d715ecb8207e5a9a5e437cc47d286e6c5a582d25e747ef
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-05-05
+    file: dis-ukraine-2024-05-05.html
+    url: "https://www.kyivpost.com/post/32134"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-05-05
+    published: 2024-05-05
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: bb97c6bc5d8b695bb40154c512658eea775c0118c98bbdca1932fc6ea954c6fe
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-05-04
+    file: dis-ukraine-2024-05-04.html
+    url: "https://www.kyivpost.com/post/32105"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-05-04
+    published: 2024-05-04
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: b7597c81eed50647fac5702784c30ae4d77b33ad6453230529bdaf58e25b87a1
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-04-21
+    file: dis-ukraine-2024-04-21.html
+    url: "https://www.kyivpost.com/post/31439"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-04-21
+    published: 2024-04-21
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: e43ebd676d2907a51fc1a18fbe405097d503485af967a888d400539f9a39a96e
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-04-20
+    file: dis-ukraine-2024-04-20.html
+    url: "https://www.kyivpost.com/post/31420"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-04-20
+    published: 2024-04-20
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: e1bf5fa881587af91fb77045cf9d5537ebf836eaedb4d3e4ab7d58e07c074477
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-04-13
+    file: dis-ukraine-2024-04-13.html
+    url: "https://www.kyivpost.com/post/31072"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-04-13
+    published: 2024-04-13
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: dd60cec1590662635421cf9bf74dd62ed0187bd6453394d90c8085893d6d7078
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-04-07
+    file: dis-ukraine-2024-04-07.html
+    url: "https://www.kyivpost.com/post/30724"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-04-07
+    published: 2024-04-07
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 175d5a3c271a65cb47c9cf81ca9154238be467af2ba949fb3a06d846d533b451
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-04-06
+    file: dis-ukraine-2024-04-06.html
+    url: "https://www.kyivpost.com/post/30693"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-04-06
+    published: 2024-04-06
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: a00b46b2f8bfee68daa5e3e24b86d03fa67b0f0ce07701851694ceb3ce290798
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-03-31
+    file: dis-ukraine-2024-03-31.html
+    url: "https://www.kyivpost.com/post/30361"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-03-31
+    published: 2024-03-31
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 49611301685207cad4667d24b479a8dd6e4d9dcacc13b7d4b09c6562785468ef
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: dis-ukraine-2024-03-30
+    file: dis-ukraine-2024-03-30.html
+    url: "https://www.kyivpost.com/post/30339"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2024-03-30
+    published: 2024-03-30
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: fda0486b899a734f498662e9afaa20eac5e7d3b2f95bf5e13a51d110b95526bc
+    note: licence set 2026-08-21 by rule; verify before publication
+
+  - id: ca-ttc-2019
+    file: ca-ttc-2019.pdf
+    publisher: Public Safety Canada (ITAC)
+    title: Public Report on the Terrorist Threat to Canada 2019 (CA-IC)
+    published: 2019
+    class: ca_ic
+    licence: crown-canada
+    extract: pdf
+    status: invalid
+    sha256: 626ebc0ba78154eeec8716fb37641fadb15043fda6825acea918e8ebdeb0d48c
+    note: "fetched out-of-band; url unrecorded; INVALID BYTES 2026-08-21: file is a Government of Canada 404 error page (HTML), not the report PDF - publisher/title inferred from filename and CA-IC series; refetch required"
+
+  - id: usnie-cuban-1962
+    file: usnie-cuban-1962.pdf
+    publisher: CIA/US Intelligence Board
+    title: US National Intelligence Estimate on Cuba (1962)
+    published: 1962
+    class: negative_us
+    licence: us-public-domain
+    extract: pdf
+    status: invalid
+    sha256: a8964dd94a9d08eb43108fc21529005bfadf93144e923048da5d49f78f5fa84c
+    note: "fetched out-of-band; url unrecorded; INVALID BYTES 2026-08-21: file is a Cloudflare challenge HTML page (bookshop.org), not the NIE PDF - publisher/title inferred from filename; refetch required"
+
+  - id: dis-ukraine-2023-12-17
+    file: dis-ukraine-2023-12-17.html
+    url: "https://www.kyivpost.com/post/25594"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2023-12-17
+    published: 2023-12-17
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 633464af9d14be7d45693d9a75805d4577d87b74e788adfa647eca45259a5c65
+
+  - id: dis-ukraine-2023-11-04
+    file: dis-ukraine-2023-11-04.html
+    url: "https://www.kyivpost.com/post/23652"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2023-11-04
+    published: 2023-11-04
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: ecc6d1558d202f78f3d610ba1248f945cb28da0b1fe837d10734c26d29fa1be2
+
+  - id: dis-ukraine-2023-10-15
+    file: dis-ukraine-2023-10-15.html
+    url: "https://www.kyivpost.com/post/22761"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2023-10-15
+    published: 2023-10-15
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: fab9f6074991ca115a01ff2ed4532264c3aafff916900b126795dfd4730dd21a
+
+  - id: dis-ukraine-2023-10-08
+    file: dis-ukraine-2023-10-08.html
+    url: "https://www.kyivpost.com/post/22466"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2023-10-08
+    published: 2023-10-08
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 294d69e7d99bdf411eaec8e80923bacd7a5e17687f41179f0341926d0565f82a
+
+  - id: dis-ukraine-2023-10-07
+    file: dis-ukraine-2023-10-07.html
+    url: "https://www.kyivpost.com/post/22431"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2023-10-07
+    published: 2023-10-07
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: e7795257b9b26b612d639b9de800ff751165ace7f654e5dce9e2c6a302fbc52a
+
+  - id: dis-ukraine-2023-09-30
+    file: dis-ukraine-2023-09-30.html
+    url: "https://www.kyivpost.com/post/22150"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2023-09-30
+    published: 2023-09-30
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 6f8d552381768c3f69243c4020a1b235b2361e9f3f05b1d6771f5028811b15f8
+
+  - id: dis-ukraine-2023-09-24
+    file: dis-ukraine-2023-09-24.html
+    url: "https://www.kyivpost.com/post/21938"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2023-09-24
+    published: 2023-09-24
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 97201aa80a8a000a29aeda104df20bfce83379029302e4915bbfcf6d54793fb1
+
+  - id: dis-ukraine-2023-09-23
+    file: dis-ukraine-2023-09-23.html
+    url: "https://www.kyivpost.com/post/21918"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2023-09-23
+    published: 2023-09-23
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 34674c84901ce008e10bf913d9d091c1f0912d15282f64b6ef8a7306df760149
+
+  - id: dis-ukraine-2023-09-17
+    file: dis-ukraine-2023-09-17.html
+    url: "https://www.kyivpost.com/post/21699"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2023-09-17
+    published: 2023-09-17
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: ee5ab9eb503d20375bd31663fab8759f7882bee30117d41d6bf23e9e49bd618b
+
+  - id: dis-ukraine-2023-09-16
+    file: dis-ukraine-2023-09-16.html
+    url: "https://www.kyivpost.com/post/21672"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2023-09-16
+    published: 2023-09-16
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: ab2d806170108bd8ff78e6a2ce98f24ab9230d89e2d08767314ca15092f92c05
+
+  - id: dis-ukraine-2023-09-09
+    file: dis-ukraine-2023-09-09.html
+    url: "https://www.kyivpost.com/post/21424"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2023-09-09
+    published: 2023-09-09
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: b3524a53b7d4f10f506c0f26250085d6a11fb8b6d586be2df98e45dcce1e9af6
+
+  - id: dis-ukraine-2023-09-03
+    file: dis-ukraine-2023-09-03.html
+    url: "https://www.kyivpost.com/post/21196"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2023-09-03
+    published: 2023-09-03
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 35ddbb44c3393a9d31094bcb04b7ba45f35f3b9a62c2210b191615da46156411
+
+  - id: dis-ukraine-2023-09-02
+    file: dis-ukraine-2023-09-02.html
+    url: "https://www.kyivpost.com/post/21172"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2023-09-02
+    published: 2023-09-02
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: dd58d58c7970a65f0e8a18139dbb5d31c44ab1a46e36f4e17c104b0636773a30
+
+  - id: dis-ukraine-2023-08-27
+    file: dis-ukraine-2023-08-27.html
+    url: "https://www.kyivpost.com/post/20963"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2023-08-27
+    published: 2023-08-27
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 6fc512b42407eb99c705f967006019f4189e441da04a77db5b314353beaa2bb0
+
+  - id: dis-ukraine-2023-08-26
+    file: dis-ukraine-2023-08-26.html
+    url: "https://www.kyivpost.com/post/20939"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2023-08-26
+    published: 2023-08-26
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 4b0184c0821526aef74be3d8c9e6e505f2d2e12f3373c5aa31b549473ab1f922
+
+  - id: dis-ukraine-2023-08-20
+    file: dis-ukraine-2023-08-20.html
+    url: "https://www.kyivpost.com/post/20732"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2023-08-20
+    published: 2023-08-20
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 8912b0320d3cc9c5572bc3d851b04acb09523f97413c8be82175f12f01342956
+
+  - id: dis-ukraine-2023-08-19
+    file: dis-ukraine-2023-08-19.html
+    url: "https://www.kyivpost.com/post/20703"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2023-08-19
+    published: 2023-08-19
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 0e7e7961e6a2ad2d1c61ec77592ecfc3bcf592405d06b01053314c519a1c0415
+
+  - id: dis-ukraine-2022-12-07
+    file: dis-ukraine-2022-12-07.html
+    url: "https://www.kyivpost.com/post/5442"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2022-12-07
+    published: 2022-12-07
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: c4478c9276aeb0d0c0fb4c851d9594357223e5513f782acdf2f767f4e005d273
+
+  - id: dis-ukraine-2025-01-12
+    file: dis-ukraine-2025-01-12.html
+    url: "https://www.kyivpost.com/post/45332"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2025-01-12
+    published: 2025-01-12
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: bc900b76f78c7639b9d644a1721e050d877ca9c36e9404aeb128cbe65bad4500
+
+  - id: dis-ukraine-2023-09-10
+    file: dis-ukraine-2023-09-10.html
+    url: "https://www.kyivpost.com/post/21455"
+    publisher: MoD Defence Intelligence (mirror)
+    title: Defence Intelligence Update on Ukraine, 2023-09-10
+    published: 2023-09-10
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 13e49212ed106dec903705bb52c88f47d1150774397d8a2d5a1b6f367f1bf1d1
+
+  - id: national-risk-register-2025
+    file: national-risk-register-2025.pdf
+    url: "https://assets.publishing.service.gov.uk/media/67b5f85732b2aab18314bbe4/National_Risk_Register_2025.pdf"
+    publisher: HM Government (Cabinet Office)
+    title: National Risk Register 2025
+    published: 2025
+    class: key_judgements
+    licence: OGL v3
+    status: fetched
+    sha256: 24620f84433ec4078ecfb7ac474a310979e905132b3cc3df53b646f27343e6ab
+    note: Civil-contingency risk assessment with likelihood/impact register language; candidate positive source (HM Gov). Added 2026-08-22 from the live gov.uk publication page.
+
+  - id: contest-2023
+    file: contest-2023.pdf
+    url: "https://assets.publishing.service.gov.uk/media/650b1b8d52e73c000d54dc82/CONTEST_2023_English_updated.pdf"
+    publisher: HM Government (Home Office)
+    title: "CONTEST 2023: the United Kingdom's Strategy for Countering Terrorism"
+    published: 2023
+    class: key_judgements
+    licence: OGL v3
+    status: fetched
+    sha256: 3be78f36a54f1dd951bb676feea7c6d74e32b93769d459d50ec934d23597bf15
+    note: Strategy threat assessments with estimative language; added 2026-08-22 from live gov.uk.
+
+  - id: contest-2018
+    file: contest-2018.pdf
+    url: "https://assets.publishing.service.gov.uk/media/5b23df8f40f0b634d557b020/140618_CCS207_CCS0218929798-1_CONTEST_3.0_WEB.pdf"
+    publisher: HM Government (Home Office)
+    title: CONTEST 3.0 (2018)
+    published: 2018
+    class: key_judgements
+    licence: OGL v3
+    status: fetched
+    sha256: ff2f0dfb24b2c15f819b6613aa452f92d5cfee5e35a450ccefbf330880f553a7
+    note: Strategy threat assessments with estimative language; added 2026-08-22 from live gov.uk.
+
+  - id: isc-mitrokhin-2000
+    file: isc-mitrokhin-2000.pdf
+    url: "https://isc.independent.gov.uk/wp-content/uploads/2021/01/200006_ISC_Mitrokhin_Report.pdf"
+    url_text: "https://web.archive.org/web/20210516153840id_/https://isc.independent.gov.uk/wp-content/uploads/2021/01/200006_ISC_Mitrokhin_Report.pdf"
+    publisher: Intelligence and Security Committee
+    title: Mitrokhin Inquiry Report (2000)
+    published: 2000
+    class: key_judgements
+    licence: OPL
+    extract: pdf
+    status: fetched
+    sha256: 201407d5888b6abae48e9c60fa768cb54f56f319df7ab5c6dac235cb8c29f816
+    note: Fetched via Wayback snapshot 20210516153840 (id_ raw bytes); live site unreachable from build network since 2026-08-21.
+
+  - id: isc-wmd-2003
+    file: isc-wmd-2003.pdf
+    url: "https://isc.independent.gov.uk/wp-content/uploads/2021/01/200309_ISC_WMD_Report.pdf"
+    url_text: "https://web.archive.org/web/20210516155849id_/https://isc.independent.gov.uk/wp-content/uploads/2021/01/200309_ISC_WMD_Report.pdf"
+    publisher: Intelligence and Security Committee
+    title: ISC WMD Report (2003)
+    published: 2003
+    class: key_judgements
+    licence: OPL
+    extract: pdf
+    status: fetched
+    sha256: b79d7d60fe59a8e534df16cbb300a10a11ef50a0ceaade786cacaafac60f178a
+    note: Fetched via Wayback snapshot 20210516155849 (id_ raw bytes); live site unreachable from build network since 2026-08-21.
+
+  - id: isc-bali-2002
+    file: isc-bali-2002.pdf
+    url: "https://isc.independent.gov.uk/wp-content/uploads/2021/01/200212_ISC_Bali_Report.pdf"
+    url_text: "https://web.archive.org/web/20210516162644id_/https://isc.independent.gov.uk/wp-content/uploads/2021/01/200212_ISC_Bali_Report.pdf"
+    publisher: Intelligence and Security Committee
+    title: ISC Bali Incident Report (2002)
+    published: 2002
+    class: key_judgements
+    licence: OPL
+    extract: pdf
+    status: fetched
+    sha256: 091ad135176dd5c453476a71c3e48a3943072e0ea916bb2500ac1f32503dd96f
+    note: Fetched via Wayback snapshot 20210516162644 (id_ raw bytes); live site unreachable from build network since 2026-08-21.
+
+  - id: isc-detainees-2005
+    file: isc-detainees-2005.pdf
+    url: "https://isc.independent.gov.uk/wp-content/uploads/2021/01/200503_ISC_Handling_Detainees_Report.pdf"
+    url_text: "https://web.archive.org/web/20210512151135id_/https://isc.independent.gov.uk/wp-content/uploads/2021/01/200503_ISC_Handling_Detainees_Report.pdf"
+    publisher: Intelligence and Security Committee
+    title: ISC Handling of Detainees Report (2005)
+    published: 2005
+    class: key_judgements
+    licence: OPL
+    extract: pdf
+    status: fetched
+    sha256: 5c8d35bb0d4af2ab26d82e772eb8b31ea4e35eb7b023d181a63c480be684b052
+    note: Fetched via Wayback snapshot 20210512151135 (id_ raw bytes); live site unreachable from build network since 2026-08-21.
+
+  - id: isc-7july-2006
+    file: isc-7july-2006.pdf
+    url: "https://isc.independent.gov.uk/wp-content/uploads/2021/01/200605_ISC_7July_Report.pdf"
+    url_text: "https://web.archive.org/web/20210512153526id_/https://isc.independent.gov.uk/wp-content/uploads/2021/01/200605_ISC_7July_Report.pdf"
+    publisher: Intelligence and Security Committee
+    title: ISC 7 July local report (2006)
+    published: 2006
+    class: key_judgements
+    licence: OPL
+    extract: pdf
+    status: fetched
+    sha256: bec63923ebb6c8f802491b7f45938822567ac469e2a2fdd8bda9a2026ebb6bf9
+    note: Fetched via Wayback snapshot 20210512153526 (id_ raw bytes); live site unreachable from build network since 2026-08-21.
+
+  - id: isc-ar-2002-2003
+    file: isc-ar-2002-2003.pdf
+    url: "https://isc.independent.gov.uk/wp-content/uploads/2021/01/2002-2003_ISC_AR.pdf"
+    url_text: "https://web.archive.org/web/20210516161717id_/https://isc.independent.gov.uk/wp-content/uploads/2021/01/2002-2003_ISC_AR.pdf"
+    publisher: Intelligence and Security Committee
+    title: ISC Annual Report 2002-2003
+    published: 2002-2003
+    class: key_judgements
+    licence: OPL
+    extract: pdf
+    status: fetched
+    sha256: 6bfc4c774fe43bfad9caea83c2938f79a125466cb203548e8fea572c05741f2f
+    note: Fetched via Wayback snapshot 20210516161717id_ (raw bytes); live site unreachable.
+
+  - id: isc-ar-2004-2005
+    file: isc-ar-2004-2005.pdf
+    url: "https://isc.independent.gov.uk/wp-content/uploads/2021/01/2004-2005_ISC_AR.pdf"
+    url_text: "https://web.archive.org/web/20210516160314id_/https://isc.independent.gov.uk/wp-content/uploads/2021/01/2004-2005_ISC_AR.pdf"
+    publisher: Intelligence and Security Committee
+    title: ISC Annual Report 2004-2005
+    published: 2004-2005
+    class: key_judgements
+    licence: OPL
+    extract: pdf
+    status: fetched
+    sha256: a81d98dcbdbdd5f2a74f38ac3bc625b4c701746665ccfe0953aeeb5caf440d59
+    note: Fetched via Wayback snapshot 20210516160314id_ (raw bytes); live site unreachable.
+
+  - id: isc-ar-2009-2010
+    file: isc-ar-2009-2010.pdf
+    url: "https://isc.independent.gov.uk/wp-content/uploads/2021/01/2009-2010_ISC_AR.pdf"
+    url_text: "https://web.archive.org/web/20210516160508id_/https://isc.independent.gov.uk/wp-content/uploads/2021/01/2009-2010_ISC_AR.pdf"
+    publisher: Intelligence and Security Committee
+    title: ISC Annual Report 2009-2010
+    published: 2009-2010
+    class: key_judgements
+    licence: OPL
+    extract: pdf
+    status: fetched
+    sha256: 81a890b6e4e326569e72cfba77b80453c5630ac240f9232c8a4e8ac235851d78
+    note: Fetched via Wayback snapshot 20210516160508id_ (raw bytes); live site unreachable.
+
+  - id: isc-sierraleone-1999
+    file: isc-sierraleone-1999.pdf
+    url: "https://isc.independent.gov.uk/wp-content/uploads/2021/01/199904_ISC_Sierra_Leone_Report.pdf"
+    url_text: "https://web.archive.org/web/20210512134628id_/https://isc.independent.gov.uk/wp-content/uploads/2021/01/199904_ISC_Sierra_Leone_Report.pdf"
+    publisher: Intelligence and Security Committee
+    title: ISC Sierra Leone Report (1999-2000)
+    published: 2000
+    class: key_judgements
+    licence: OPL
+    extract: pdf
+    status: fetched
+    sha256: 53e543220d205c427098d026fb7074ceff4a4217e2f05455e7046d2aae1dc669
+    note: Fetched via Wayback snapshot 20210512134628id_; live site unreachable.
+
+  - id: isc-ar-2001-2002
+    file: isc-ar-2001-2002.pdf
+    url: "https://isc.independent.gov.uk/wp-content/uploads/2021/01/2001-2002_ISC_AR.pdf"
+    url_text: "https://web.archive.org/web/20210512141415id_/https://isc.independent.gov.uk/wp-content/uploads/2021/01/2001-2002_ISC_AR.pdf"
+    publisher: Intelligence and Security Committee
+    title: ISC Annual Report 2001-2002
+    published: -200
+    class: key_judgements
+    licence: OPL
+    extract: pdf
+    status: fetched
+    sha256: 901c868faec9f5231d526b48089dad9b890d226e413e6fa2ec71cefa61737e7f
+    note: Fetched via Wayback snapshot 20210512141415id_; live site unreachable.
+
+  - id: ipco-ar-2022
+    file: ipco-ar-2022.pdf
+    url: "https://ipco-wpmedia-prod-s3.s3.eu-west-2.amazonaws.com/Annual-Report-2022.pdf"
+    publisher: "Investigatory Powers Commissioner's Office"
+    title: IPCO Annual Report 2022
+    published: 2022
+    class: key_judgements
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: 0ef37d32a5ea6498ba3a1997915082a11dac4aeb299f39f0789f883c4248f15d
+    note: Acquired live from ipco.org.uk 2026-08-23; the P2 catalogue lane fixed in the audit (was ipcoco.org.uk).
+
+  - id: ipco-ar-2024
+    file: ipco-ar-2024.pdf
+    url: "https://ipco-wpmedia-prod-s3.s3.eu-west-2.amazonaws.com/IPCO-Annual-Report-2024.pdf"
+    publisher: "Investigatory Powers Commissioner's Office"
+    title: IPC Annual Report 2024
+    published: 2024
+    class: key_judgements
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: f9e2956145c59ef844e367ea838d84a718706d17fbb8885abed5c31dd570168d
+    note: Acquired live from ipco.org.uk 2026-08-23; the P2 catalogue lane fixed in the audit (was ipcoco.org.uk).
+
+  - id: ipco-ar-2019
+    file: ipco-ar-2019.pdf
+    url: "https://ipco-wpmedia-prod-s3.s3.eu-west-2.amazonaws.com/IPC-Annual-Report-2019_Web-Accessible-version_final.pdf"
+    url_text: "https://web.archive.org/web/20210416171754id_/https://ipco-wpmedia-prod-s3.s3.eu-west-2.amazonaws.com/IPC-Annual-Report-2019_Web-Accessible-version_final.pdf"
+    publisher: "Investigatory Powers Commissioner's Office"
+    title: IPC Annual Report 2019
+    published: 2019
+    class: key_judgements
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: 81c9b25b750fc247dfd5a21b727dfe4e2f2bc1329ab9f1448b270a4a14d068a6
+    note: Live S3 403s; recovered via Wayback snapshot 20210416171754id_ 2026-08-23.
+
+  - id: ukhsa-meningo-2026-briefing1
+    file: ukhsa-meningo-2026-briefing1.html
+    url: "https://www.gov.uk/government/publications/invasive-meningococcal-disease-outbreak-2026-technical-briefings/invasive-meningococcal-disease-outbreak-2026-technical-briefing-1"
+    publisher: UK Health Security Agency
+    title: "Invasive meningococcal disease outbreak 2026: technical briefing 1"
+    published: 2026
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 8f429dcad5e19f6a2d60cf55020367a961c537325e4b0391e366619fa5fb8c13
+    note: PHIA-yardstick public-health analytical prose with Key Judgements structure; new positive domain. Found via gov.uk site search 2026-08-23.
+
+  - id: companies-house-sia-2025
+    file: companies-house-sia-2025.html
+    url: "https://www.gov.uk/government/publications/companies-house-strategic-intelligence-assessment/companies-house-strategic-intelligence-assessment"
+    publisher: Companies House
+    title: Companies House Strategic Intelligence Assessment
+    published: 2025
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 3a10fec567594a86e290b242ce21d29cc0d8a6a8aea0454959561b6f8324fba4
+    note: Strategic intelligence assessment with 64 PHIA-yardstick term hits; found via gov.uk sweep 2026-08-23.
+
+  - id: nature-security-assessment
+    file: nature-security-assessment.html
+    url: "https://www.gov.uk/government/publications/nature-security-assessment-on-global-biodiversity-loss-ecosystem-collapse-and-national-security/national-security-assessment-on-global-ecosystems-accessible-version"
+    publisher: HM Government (Nature Security Council)
+    title: National Security Assessment on Global Ecosystems
+    published: 2025
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 2564e8a0dabfec7cf17f5207898b6bf24a06a78d9ddf8d91717ed1fb00f56e07
+    note: Kj-structured NATIONAL SECURITY assessment (5 kj headings, 41 yardstick hits); acquired via gov.uk sweep 2026-08-23.
+
+  - id: ofsi-sanctions-crypto-ta
+    file: ofsi-sanctions-crypto-ta.pdf
+    url: "https://assets.publishing.service.gov.uk/media/687e6362791bb4d8c309a06e/OFSI_Cryptoassets_Threat_Assessment.pdf"
+    publisher: HM Government
+    title: "OFSI Sanctions Compliance Threat Assessment: Cryptoassets Sector"
+    published: 2025
+    class: key_judgements
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: 1a9b5ac74464a8291c77a51b3459d8e550b8178a89137d4d0dba2c25b76c711b
+    note: Acquired via gov.uk sweep 2026-08-23 (threat/risk-assessment class).
+
+  - id: nrr-2026
+    file: nrr-2026.pdf
+    url: "https://assets.publishing.service.gov.uk/media/6a50d66b1228eb26a4cab76c/National_Risk_Register_2026.pdf"
+    publisher: HM Government
+    title: National Risk Register 2026
+    published: 2026
+    class: key_judgements
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: f321b0851bb6707ed2ca2f4740238a97cc6cd5b01b596d12ac15a88110831bfc
+    note: Acquired via gov.uk sweep 2026-08-23 (threat/risk-assessment class).
+
+  - id: nrr-2023
+    file: nrr-2023.pdf
+    url: "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1175834/2023_NATIONAL_RISK_REGISTER_NRR.pdf"
+    publisher: HM Government
+    title: National Risk Register 2023
+    published: 2023
+    class: key_judgements
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: 4d3a29e5eb530efeb78bccf574521699c7f7df6fa15b614f8a22aabf203094cd
+    note: Acquired via gov.uk sweep 2026-08-23 (threat/risk-assessment class).
+
+  - id: ofsi-sanctions-financial-ta
+    file: ofsi-sanctions-financial-ta.pdf
+    url: "https://assets.publishing.service.gov.uk/media/6835db1f3dd61280f46c0408/OFSI_Financial_Services_Threat_Assessment_Report.pdf"
+    publisher: HM Government (OFSI)
+    title: "OFSI Sanctions Compliance Threat Assessment: Financial Services"
+    published: 2025
+    class: key_judgements
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: 386469b594eb84795a785838877c91e14ce2acf82e5c6cc04a9f6aaa29a3b51e
+    note: Acquired via gov.uk threat-assessment sweep 2026-08-23.
+
+  - id: ofsi-sanctions-art-ta
+    file: ofsi-sanctions-art-ta.pdf
+    url: "https://assets.publishing.service.gov.uk/media/6a01ee3c81a251700a20b3bf/OFSI_Art_Market_Participants_and_High_Value_Dealers_Threat_Assessment_1_May.pdf"
+    publisher: HM Government (OFSI)
+    title: "OFSI Sanctions Compliance Threat Assessment: Art Market"
+    published: 2025
+    class: key_judgements
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: aa8f6acd114bb9faa9883e13809c8197939fd2d3eb74f0896d3535f32a651d03
+    note: Acquired via gov.uk threat-assessment sweep 2026-08-23.
+
+  - id: ofsi-sanctions-property-ta
+    file: ofsi-sanctions-property-ta.pdf
+    url: "https://assets.publishing.service.gov.uk/media/6835dc9e9c2ff625fff6933a/OFSI_Property_and_Related_Services_Threat_Assessment.pdf"
+    publisher: HM Government (OFSI)
+    title: "OFSI Sanctions Compliance Threat Assessment: Property"
+    published: 2025
+    class: key_judgements
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: bddcc4ab329174f7bb6f2e780c9ff9a1a93d29c705b42d4e998fc5135a30c043
+    note: Acquired via gov.uk threat-assessment sweep 2026-08-23.
+
+  - id: hsra-2025
+    file: hsra-2025.html
+    url: "https://www.gov.uk/government/publications/health-security-risk-assessment-hsra-2025-edition/health-security-risk-assessment-hsra-2025-edition"
+    publisher: UK Health Security Agency
+    title: Health Security Risk Assessment (HSRA) 2025 edition
+    published: 2025
+    class: key_judgements
+    licence: OGL v3
+    extract: html
+    status: fetched
+    sha256: 2146feed36fa256954d834a5615df648af7d78330bfa35a5d31bbc1216ef6da0
+    note: "Kj-structured health-security risk assessment (4 kj headings, 56 'likely' hits); acquired via sweep 2026-08-23."
+
+  - id: ofsi-sanctions-legal-ta
+    file: ofsi-sanctions-legal-ta.pdf
+    url: "https://assets.publishing.service.gov.uk/media/6835e2f4214f7f554cf6932a/OFSI_Legal_Services_Threat_Assessment.pdf"
+    publisher: HM Government (OFSI)
+    title: "OFSI Sanctions Compliance Threat Assessment: Legal Services"
+    published: 2025
+    class: key_judgements
+    licence: OGL v3
+    extract: pdf
+    status: fetched
+    sha256: 1ed5a44b3527ebcd7e6c1c04b426a6f80fbbeb7dd5f99dc05c8b24570777377d
+    note: Acquired via gov.uk sweep 2026-08-23 (fifth OFSI sector).
+

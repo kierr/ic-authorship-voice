@@ -1,0 +1,20 @@
+# Dependency record for the ic-authorship-voice pipeline. The pins are the exact versions
+# the committed extracted/ and adapter artifacts were produced with — PDF text
+# extraction and mlx-lm APIs are version-sensitive, so an unpinned reinstall can
+# silently produce a different corpus.
+[project]
+name = "ic-authorship-voice"
+version = "1.0.0"
+description = "UK IC assessment-register training corpus + LFM2.5 QLoRA fine-tune pipeline"
+requires-python = ">=3.11"
+dependencies = [
+    "pymupdf==1.28.2",
+    "scikit-learn==1.9.0",
+    "mlx==0.32.1",
+    "mlx-lm==0.32.0",  # 0.31.3->0.32.0 (git main) approved 2026-08-22 for the 2.6B capacity test
+    "numpy==2.5.2",
+    "transformers==5.15.1",
+]
+
+[tool.uv]
+package = false

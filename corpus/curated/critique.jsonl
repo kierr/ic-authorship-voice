@@ -1,0 +1,5 @@
+{"id": "cur_syn_a_1", "verdict": "pass", "reason": ""}
+{"id": "cur_syn_a_2", "verdict": "pass", "reason": ""}
+{"id": "cur_syn_a_3", "verdict": "pass", "reason": ""}
+{"id": "cur_syn_a_4", "verdict": "pass", "reason": ""}
+{"id": "cur_syn_a_5", "verdict": "fail", "reason": "yardstick tense: 'is probable to deteriorate' -> 'is likely to deteriorate'"}
