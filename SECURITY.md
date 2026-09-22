@@ -5,9 +5,9 @@
 If you find a security vulnerability in this repository, please report it
 privately via GitHub's security advisory feature:
 
-https://github.com/OWNER/ic-authorship-voice/security/advisories/new
+https://github.com/kierr/ic-authorship-voice/security/advisories/new
 
-Replace `OWNER` with the repository owner. Do not file security
+Replace `kierr` with the repository owner if the repo is transferred. Do not file security
 vulnerabilities as public issues.
 
 ## Scope
