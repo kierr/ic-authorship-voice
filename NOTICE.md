@@ -15,15 +15,14 @@ rights-holder's terms, recorded per source in the `licence` field of
 | `us-public-domain` | US government works (ODNI National Intelligence Estimates, DNI reports) | 17 USC §105 — works of the US government are not subject to domestic copyright. |
 | `cc-by-au` | Australian government publications (ONI Counter-Terrorism Plan) | Creative Commons Attribution (Australia) — permits reproduction with attribution. |
 | `crown-canada` | Canadian government publications (TTIC, ITAC threat briefs) | Crown copyright (Canada) — available for non-commercial reproduction with attribution per Government of Canada open-government terms. |
-| `ARR` | Press articles (BBC, Guardian, Independent) | All-rights-reserved. Retained in `extracted/` for contrast analysis under research fair-dealing (CDPA 1988 s.30). Not in training data; not for redistribution. |
 
 **Training data licence summary** (`corpus/train.jsonl` + `corpus/test.jsonl`):
 
 - **OGL v3**: 1,048 samples (80% of training, including all MoD DIS updates)
 - **OPL**: 416 samples (20% of training — ISC reports, Butler, Chilcot)
-- **No ARR or restricted content in training splits.**
+- **No ARR or restricted content in any split.**
 
-The `contrast.jsonl` file (124 samples: AU, CA, US, press) is not used in
+The `contrast.jsonl` file (118 samples: AU, CA, US, spec) is not used in
 training; it supports register-classifier differentiation only.
 
 ## Licence evidence log (2026-08-22 sweep, corrected 2026-10)
@@ -47,5 +46,7 @@ Mechanical keyword evidence gathered from live host pages:
 - `iraqinquiry.org.uk` — Chilcot Inquiry report, publicly funded and
   published for public consumption. Classified `OPL`.
 - `bbc.co.uk` / `independent.co.uk` / `theguardian.com` — press full-text
-  rows are `ARR`; retained for contrast analysis under research fair-dealing
-  only. Not in training data.
+  rows were previously included for contrast analysis under research
+  fair-dealing (CDPA 1988 s.30). Removed from the public release to
+  respect the publishers' all-rights-reserved terms; no press content
+  ships in this repository.

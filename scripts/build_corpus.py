@@ -54,7 +54,7 @@ PUBLISHER_KEYS = {
 # segmenter that emits full_assessment to re-add.
 POSITIVE = {"key_judgements", "confidence_statements"}
 # Contrast classes segment.py emits: register classifier, never the SFT splits.
-CONTRAST = {"negative_us", "negative_press", "contrast_misc", "ca_ic", "au_ic",
+CONTRAST = {"negative_us", "contrast_misc", "ca_ic", "au_ic",
             "negative_llm", "spec"}
 
 

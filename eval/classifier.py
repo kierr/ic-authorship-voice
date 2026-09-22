@@ -3,14 +3,15 @@
 
 The headline automated metric: fine-tuned model output must classify as uk_ic;
 base-model, press, US and cousin-register (au/ca) output must not. Trained on
+positive → uk_ic; base-model, US and cousin-register (au/ca) output must not. Trained on
 corpus/train.jsonl (positive → uk_ic) + corpus/contrast.jsonl (negative_us →
-us, negative_press/contrast_misc → press, au_ic → au, ca_ic → ca,
-negative_llm → llm) with TF-IDF bigrams + multinomial logistic regression.
+us, contrast_misc → press, au_ic → au, ca_ic → ca, negative_llm → llm) with TF-IDF
+bigrams + multinomial logistic regression.
 
 Baseline (2026-08-19): weighted acc 0.97, uk_ic precision 1.00 — measured
 in-sample on the then 3-way fold; the printed report is now cross-validated
-so expect lower, honest numbers. The press class is thin (5 samples) and
-minority-class recall is weak (ca/us/press often fold into uk_ic) — treat
+so expect lower, honest numbers. The press class is thin (contrast_misc
+samples) and minority-class recall is weak (ca/us/press often fold into uk_ic) — treat
 uk_ic precision and overall accuracy as the reliable numbers, not per-class
 recall, until the contrast classes grow.
 
@@ -27,7 +28,6 @@ CORPUS = os.path.join(ROOT, "corpus")
 # committed Five-Eyes discriminator 3-way.
 LABELS = {
     "negative_us": "us",
-    "negative_press": "press",
     "contrast_misc": "press",
     "ca_ic": "ca",
     "au_ic": "au",

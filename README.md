@@ -14,6 +14,17 @@ One contingent requirement: the model must be trained on unclassified sources, t
 
 End goal: a fine-tuned model + eval harness + reproducible corpus.
 
+## Quick start
+
+```bash
+# Clone and set up
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+
+# Run all cheap gates (projection freshness, provenance, corpus validation, lint)
+sh scripts/check.sh
+```
+
 ## Target register
 
 - **Estimative language is a controlled vocabulary.** The PHIA Probability Yardstick, 7 ascending terms: *remote chance, highly unlikely, unlikely, realistic possibility, likely or probable, highly likely, almost certain*.

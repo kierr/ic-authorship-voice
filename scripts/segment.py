@@ -45,7 +45,7 @@ KEY_HEADINGS = re.compile(
 # RATIONALE: routing used to be "contrast tuple, else positive", so any class
 # outside the tuple (e.g. a fetched spec-class source) flowed into training.
 POSITIVE_CLASSES = ("key_judgements", "full_assessment", "confidence_statements")
-CONTRAST_CLASSES = ("negative_us", "negative_press", "contrast_misc",
+CONTRAST_CLASSES = ("negative_us", "contrast_misc",
                     "ca_ic", "au_ic", "negative_llm", "spec")
 
 

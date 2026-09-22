@@ -45,7 +45,8 @@ def _project(rows):
     lines = [
         "# sources/manifest.yaml - provenance ledger (projected from manifest.json).",
         "# Sample -> source_id -> sha256_source; no orphan samples.",
-        "# classes: key_judgements | full_assessment | confidence_statements |",
+# classes: key_judgements | full_assessment | confidence_statements |
+#   negative_us | negative_llm | spec | contrast_misc | ca_ic | au_ic
         "#   negative_us | negative_press | negative_llm | spec | contrast_misc | ca_ic | au_ic",
         "", "sources:", "",
     ]

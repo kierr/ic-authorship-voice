@@ -124,20 +124,6 @@
     "status": "fetched"
   },
   {
-    "id": "press-bbc-7july-keyfindings",
-    "file": "press-bbc-7july-keyfindings.html",
-    "url": "https://www.bbc.co.uk/2/hi/uk_news/4760919.stm",
-    "publisher": "BBC News (press pair)",
-    "title": "Key findings: 7 July report (press treatment)",
-    "published": "2009-05-11",
-    "licence": "all-rights-reserved",
-    "extract": "html",
-    "note": "licence set 2026-08-21 by rule; verify before publication",
-    "class": "negative_press",
-    "sha256": "ab0e38514941445f80349ffe8cb1b4effcd4ee8bec20670a0ff6fc4c4c67ff3f",
-    "status": "fetched"
-  },
-  {
     "id": "dis-ukraine-2026-01-14",
     "file": "dis-ukraine-2026-01-14.html",
     "url": "https://www.kyivpost.com/post/68109",
@@ -191,48 +177,6 @@
     "note": "National Cyber Security Centre analytic register; 8th distinct positive publisher.; published 7 May 2025 per 'PUBLISHED 7 May 2025' in extracted text; 2027 is the assessment horizon year, not the publication year; licence set 2026-08-21 by rule; verify before publication",
     "class": "full_assessment",
     "sha256": "c76909b2be8fbfc6705735e8f0c1883c6af2a2273529662a8d6427f3be712ebc",
-    "status": "fetched"
-  },
-  {
-    "id": "press-bbc-chilcot-keypoints",
-    "file": "press-bbc-chilcot-keypoints.html",
-    "url": "https://www.bbc.com/news/uk-politics-36721645",
-    "publisher": "BBC News (press pair)",
-    "title": "Chilcot report: findings at-a-glance (press)",
-    "published": "2016-07-06",
-    "licence": "all-rights-reserved",
-    "extract": "html",
-    "note": "licence set 2026-08-21 by rule; verify before publication",
-    "class": "negative_press",
-    "sha256": "7d98066a4c0cdcddfbbc8b7e06912fd4bcd1a01decd0bcc4dd7c8a060e89bfd6",
-    "status": "fetched"
-  },
-  {
-    "id": "press-independent-russia-2020",
-    "file": "press-independent-russia-2020.html",
-    "url": "https://www.independent.co.uk/news/uk/politics/russia-report-national-security-summary-details-breaks-elections-boris-a9630241.html",
-    "publisher": "The Independent (press pair)",
-    "title": "Russia report: key points from the dossier (press)",
-    "published": "2020-07-21",
-    "licence": "all-rights-reserved",
-    "extract": "html",
-    "note": "licence set 2026-08-21 by rule; verify before publication",
-    "class": "negative_press",
-    "sha256": "a9042fd29f437e426335bf14b1c8e253310429156e12a54cfb0a3bf913e2e920",
-    "status": "fetched"
-  },
-  {
-    "id": "press-guardian-chilcot-keypoints",
-    "file": "press-guardian-chilcot-keypoints.html",
-    "url": "https://www.theguardian.com/uk-news/2016/jul/06/iraq-inquiry-key-points-from-the-chilcot-report",
-    "publisher": "The Guardian (press pair)",
-    "title": "Chilcot report: key points from the Iraq inquiry (press)",
-    "published": "2016-07-06",
-    "licence": "all-rights-reserved",
-    "extract": "html",
-    "note": "licence set 2026-08-21 by rule; verify before publication",
-    "class": "negative_press",
-    "sha256": "d3d10b83d49c1776ba46c65883b94340b08307fed61204b241aa93f6ab46e480",
     "status": "fetched"
   },
   {
@@ -985,46 +929,6 @@
     "class": "spec",
     "sha256": "9672c7ab7939c7e7de1d952267966699530b0e8f10403cd938c22746a855656a",
     "status": "fetched"
-  },
-  {
-    "id": "press-russia-report-guardian-2020",
-    "file": "press-guardian-russia-2020.html",
-    "url": "https://www.theguardian.com/world/2020/jul/21/russia-report-uk-election-interference",
-    "publisher": "Guardian (press pair)",
-    "title": "Press coverage — ISC Russia Report",
-    "published": "2020-07-21",
-    "licence": "all-rights-reserved",
-    "extract": "html",
-    "note": "Press treatment of the same event as isc-russia-2020; pairs for the contrast discriminator.",
-    "class": "negative_press",
-    "sha256": "5a504aff032fe8faab92965fc40e0c4bcaa7709d90347f0d14415572e6a0586a",
-    "status": "fetched"
-  },
-  {
-    "id": "press-7july-bbc-key-findings-2009",
-    "file": "press-7july-bbc-key-findings-2009.stm",
-    "url": "https://www.bbc.co.uk/2/hi/uk_news/4760919.stm",
-    "publisher": "BBC News (press pair)",
-    "title": "Key findings: 7 July report",
-    "published": "2009-05-11",
-    "licence": "all-rights-reserved",
-    "extract": "html",
-    "note": "licence set 2026-08-21 by rule; verify before publication",
-    "class": "negative_press",
-    "sha256": "b4ee1cfca1e9c16bc6de0234d35a24b05e6d350a331d70e9a02ba8b761c5f6b6",
-    "status": "fetched"
-  },
-  {
-    "id": "press-chilcot-guardian-analysis-2016",
-    "url": "https://www.theguardian.com/uk-news/2016/jul/06/iraq-inquiry-key-findings-from-the-chilcot-report",
-    "publisher": "Guardian (press pair)",
-    "title": "Key findings from the Chilcot report",
-    "published": "2016-07-06",
-    "licence": "all-rights-reserved",
-    "extract": "html",
-    "note": "licence set 2026-08-21 by rule; verify before publication | promote attempt 2026-08-22: live URL 404s; Wayback 2018-prefix 404 and CDX API 403 from this network. Dead until archive access changes.",
-    "class": "negative_press",
-    "status": "candidate"
   },
   {
     "id": "dis-ukraine-2026-02-20",
